@@ -40,10 +40,10 @@ public class Administrator implements Runnable {
     private ProductTableModel productTableModel;
     private JTable table;
     private JScrollPane scroll;
-    private DefaultComboBoxModel groupBoxModelAP, subGroupBoxModelAP;
 
     /*addProduct*/
     private JComboBox groupBoxAP, subGroupBoxAP;
+    private DefaultComboBoxModel groupBoxModelAP, subGroupBoxModelAP;
     private JTextField productNameAP, amountTextFieldAP, priceTextFieldAP;
     private JLabel groupLabelAP, subGroupLabelAP, productNameLabelAP, amountLabelAP,
             priceLabelAP, incorrectNameLabelAP, incorrectEmptyFieldsLabelAP;
@@ -205,8 +205,8 @@ public class Administrator implements Runnable {
                     String.valueOf(listProductTable.get(i).getPrice())};
             productTableModel.addDate(table);
         }
-        scroll.setVisible(false);
-        scroll.setVisible(true);
+        table.setVisible(false);
+        table.setVisible(true);
     }
 
     private void initClarificationPanel() {

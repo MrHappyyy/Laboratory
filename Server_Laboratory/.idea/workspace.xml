@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c0a824f-77b0-4894-a5b4-3833e6329686" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataBase/StatisticsDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataBase/StatisticsEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Server/dataBase/DataBase.class" afterPath="$PROJECT_DIR$/out/production/Server/dataBase/DataBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Server/server/Administrator.class" afterPath="$PROJECT_DIR$/out/production/Server/server/Administrator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Server/server/DataExchange.class" afterPath="$PROJECT_DIR$/out/production/Server/server/DataExchange.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Buyer.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Buyer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Entrance.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Entrance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Seller.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Seller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Server/server/Buyer.class" afterPath="$PROJECT_DIR$/out/production/Server/server/Buyer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Server/server/Seller.class" afterPath="$PROJECT_DIR$/out/production/Server/server/Seller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Server/server/Server_Thread.class" afterPath="$PROJECT_DIR$/out/production/Server/server/Server_Thread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../Client_Laboratory/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Client_Laboratory/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Administrator.java" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Administrator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Buyer.java" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Buyer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Seller.java" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Seller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Product.db" afterPath="$PROJECT_DIR$/Product.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataBase/DataBase.java" afterPath="$PROJECT_DIR$/src/dataBase/DataBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Administrator.java" afterPath="$PROJECT_DIR$/src/server/Administrator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/DataExchange.java" afterPath="$PROJECT_DIR$/src/server/DataExchange.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Server_Thread.java" afterPath="$PROJECT_DIR$/src/server/Server_Thread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Buyer.java" afterPath="$PROJECT_DIR$/src/server/Buyer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Seller.java" afterPath="$PROJECT_DIR$/src/server/Seller.java" />
     </list>
     <ignored path="Server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,9 +44,8 @@
         <entry file="file://$PROJECT_DIR$/src/server/Administrator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="21" selection-start-line="17" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
+              <caret line="316" column="5" selection-start-line="291" selection-start-column="4" selection-end-line="316" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#addProduct#0;class#Administrator#0" expanded="false" />
                 <element signature="method#delProduct#0;class#Administrator#0" expanded="false" />
                 <element signature="method#editProduct#0;class#Administrator#0" expanded="false" />
@@ -58,15 +62,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Seller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Seller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/Seller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8865546">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding>
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#updateTable#0;class#Seller#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Buyer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server/Buyer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#updateTable#0;class#Buyer#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataExchange.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/DataExchange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,7 +109,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -140,11 +167,11 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="y" value="25" />
     <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="height" value="741" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -169,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,11 +267,10 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches">
         <subPane />
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,6 +278,8 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -613,7 +642,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="1" />
+    <frame x="0" y="25" width="1366" height="741" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -623,7 +652,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1894061" sideWeight="0.5030303" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1894061" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18870968" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16312595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -667,7 +696,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#addProduct#0;class#Administrator#0" expanded="false" />
             <element signature="method#delProduct#0;class#Administrator#0" expanded="false" />
             <element signature="method#editProduct#0;class#Administrator#0" expanded="false" />
@@ -687,10 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="201" column="49" selection-start-line="201" selection-start-column="49" selection-end-line="201" selection-end-column="49" />
-          <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,18 +958,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3319239">
-          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dataBase/GroupDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="94" column="81" selection-start-line="94" selection-start-column="81" selection-end-line="94" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,10 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="136" column="81" selection-start-line="136" selection-start-column="81" selection-end-line="136" selection-end-column="81" />
-          <folding>
-            <element signature="e#227#228#0" expanded="false" />
-            <element signature="e#271#272#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1011,7 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18907563">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,26 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15126051">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/DataExchange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Buyer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,9 +1044,8 @@
     <entry file="file://$PROJECT_DIR$/src/server/Administrator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="21" selection-start-line="17" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
+          <caret line="316" column="5" selection-start-line="291" selection-start-column="4" selection-end-line="316" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#addProduct#0;class#Administrator#0" expanded="false" />
             <element signature="method#delProduct#0;class#Administrator#0" expanded="false" />
             <element signature="method#editProduct#0;class#Administrator#0" expanded="false" />
@@ -1071,13 +1061,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Seller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8865546">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding>
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#updateTable#0;class#Seller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/DataExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Buyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#updateTable#0;class#Buyer#0" expanded="false" />
           </folding>
         </state>
       </provider>
