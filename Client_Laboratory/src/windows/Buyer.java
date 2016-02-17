@@ -163,7 +163,7 @@ public class Buyer implements Runnable {
             entity.setPrice(listProduct.get(i).getPrice());
             listProductTable.add(entity);
         }
-        productTableModel.remove();
+        productTableModel.removeIsAll();
 
         for (int i = 0; i < listProductTable.size(); i++) {
             String[] table = {String.valueOf(listProductTable.get(i).getProductId()),
@@ -222,7 +222,7 @@ public class Buyer implements Runnable {
                         }
                     }
                     listSearchTable = list;
-                    productTableModel.remove();
+                    productTableModel.removeIsAll();
 
                     for (int i = 0; i < listSearchTable.size(); i++) {
                         String[] table = {String.valueOf(listSearchTable.get(i).getProductId()),

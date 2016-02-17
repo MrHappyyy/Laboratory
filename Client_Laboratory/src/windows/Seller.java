@@ -4,19 +4,18 @@ import client.DataExchange;
 import data_base.*;
 
 import javax.swing.*;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
+import javax.swing.event.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
+import java.awt.event.*;
+import java.text.DateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.Locale;
 
 public class Seller implements Runnable {
     private DataExchange dataExchange;
     private JFrame frame;
-    private JPanel clarificationPanel, mainPanel, sellProductPanel;
+    private JPanel clarificationPanel, mainPanel, basketPanel;
     private CardLayout layout;
 
     private ArrayList<ProductEntity> listProduct;
@@ -24,19 +23,24 @@ public class Seller implements Runnable {
     private ArrayList<SubGroupEntity> listSubGroup;
     private ArrayList<ProductTableEntity> listProductTable;
     private ArrayList<ProductTableEntity> listSearchTable = null;
-    private ArrayList<String[]> basket = new ArrayList<String[]>();
-
-    private String allowedCharacters = "0123456789";
+    private ArrayList<ProductEntity> basketList = new ArrayList<ProductEntity>();
+    private ArrayList<Integer> idProductList = new ArrayList<Integer>();
 
     /*mainPanel*/
-    private JButton sellProduct, searchButton, updateTable;
-    private JTextField searchField;
+    private JLabel enterAmountProduct, incorrectAmount;
+    private JButton basket, addBasket, searchButton, updateTable;
+    private JTextField searchField, amountProductSell;
     private ProductTableModel productTableModel;
     private JTable table;
     private JScrollPane scroll;
 
-    /*sellProductPanel*/
-    private JLabel groupLabel, subGroupLabel, productLabel, amountLabel, incorrectSellLabel, priceProductLabel, sellPriceLabel;
+    /*basketPanel*/
+    private JButton delProductInBasket, sellProduct;
+    private JLabel sellPrice;
+    private BasketProductTableModel basketProductTableModel;
+    private JTable basketTable;
+    private JScrollPane basketScroll;
+
 
     public Seller(DataExchange dataExchange) {
         this.dataExchange = dataExchange;
@@ -63,7 +67,7 @@ public class Seller implements Runnable {
     private void initPanels() {
         initClarificationPanel();
         initMainPanel();
-        initSellProductPanel();
+        initBasketPanels();
     }
 
     private void initClarificationPanel() {
@@ -74,10 +78,6 @@ public class Seller implements Runnable {
 
     private void initMainPanel() {
         mainPanel = new JPanel(null);
-
-        sellProduct = new JButton("Продаж товарів");
-        sellProduct.setBounds(50, 50, 100, 20);
-        sellProduct.addActionListener(new Action());
 
         searchField = new JTextField();
         searchField.setBounds(200, 50, 680, 20);
@@ -110,21 +110,223 @@ public class Seller implements Runnable {
         productTableModel = new ProductTableModel();
         table = new JTable(productTableModel);
         scroll = new JScrollPane(table);
-        scroll.setBounds(50, 85, 830, 450);
+        scroll.setBounds(200, 85, 680, 450);
 
-        mainPanel.add(sellProduct);
+        basket = new JButton("Корзина(0)");
+        basket.setBounds(25, 50, 150, 20);
+        basket.addActionListener(new Action());
+
+        enterAmountProduct = new JLabel("Введіть кількість товару");
+        enterAmountProduct.setBounds(25, 90, 150, 20);
+        enterAmountProduct.setHorizontalAlignment(SwingConstants.LEFT);
+
+        amountProductSell = new JTextField();
+        amountProductSell.setBounds(50, 130, 100, 20);
+        amountProductSell.addKeyListener(new KeyListener() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                checkTextFieldIsDouble(amountProductSell);
+            }
+
+            @Override
+            public void keyPressed(KeyEvent e) {
+                checkTextFieldIsDouble(amountProductSell);
+            }
+
+            @Override
+            public void keyReleased(KeyEvent e) {
+                checkTextFieldIsDouble(amountProductSell);
+            }
+        });
+        amountProductSell.addActionListener(new Action());
+
+        addBasket = new JButton("додати в корзин");
+        addBasket.setBounds(25, 170, 150, 20);
+        addBasket.addActionListener(new Action());
+
+        incorrectAmount = new JLabel();
+        incorrectAmount.setBounds(0, 210, 200, 40);
+        incorrectAmount.setHorizontalAlignment(SwingConstants.CENTER);
+
         mainPanel.add(searchField);
         mainPanel.add(searchButton);
         mainPanel.add(updateTable);
         mainPanel.add(scroll);
+        mainPanel.add(basket);
+        mainPanel.add(enterAmountProduct);
+        mainPanel.add(amountProductSell);
+        mainPanel.add(addBasket);
+        mainPanel.add(incorrectAmount);
 
         clarificationPanel.add(mainPanel, "mainPanel");
         updateTable();
         layout.show(clarificationPanel, "mainPanel");
     }
 
-    private void initSellProductPanel() {
+    private void initBasketPanels() {
+        basketPanel = new JPanel(null);
 
+        JButton back = new JButton("<-Назад");
+        back.setBounds(25, 25, 100, 20);
+        back.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dataExchange.transferString("back");
+                layout.show(clarificationPanel, "mainPanel");
+                table.setVisible(false);
+                table.setVisible(true);
+            }
+        });
+
+        delProductInBasket = new JButton("Видалити з корзини");
+        delProductInBasket.setBounds(200, 50, 200, 20);
+        delProductInBasket.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if (basketProductTableModel.getRowCount() != 0 & basketTable.getSelectedRow() != -1) {
+                    boolean b = true;
+
+                    for (int i = 0; i < productTableModel.getRowCount(); i++) {
+
+                        if (basketList.get(basketTable.getSelectedRow()).getProductName().equals(productTableModel.getValueAt(i, 1))) {
+                            double price = Double.parseDouble(productTableModel.getValueAt(i, 4)) + Double.parseDouble(basketProductTableModel.getValueAt(basketTable.getSelectedRow(), 2));
+                            productTableModel.setValueAt(price, i, 4);
+                            b =false;
+                            break;
+                        }
+                    }
+
+                    if (b) {
+                        String[] row = new String[productTableModel.getColumnCount()];
+                        ProductEntity entity = listProduct.get(idProductList.get(basketTable.getSelectedRow()));
+                        row[0] = String.valueOf(productTableModel.getRowCount() + 2);
+                        row[1] = entity.getProductName();
+                        for (int i = 0; i < listGroup.size(); i++) {
+                            if (listGroup.get(i).getGroupId() == entity.getGroupId()) {
+                                row[2] = listGroup.get(i).getGroupName();
+                            }
+                        }
+                        for (int i = 0; i < listSubGroup.size(); i++) {
+                            if (listSubGroup.get(i).getSubGroupId() == entity.getSubGroupId()) {
+                                row[3] = listSubGroup.get(i).getSubGroupName();
+                                break;
+                            }
+                        }
+                        row[4] = String.valueOf(entity.getAmount());
+                        row[5] = String.valueOf(entity.getPrice());
+                        productTableModel.addDate(row);
+                    }
+                    basketList.remove(basketTable.getSelectedRow());
+                    basketProductTableModel.removeIsRows(basketTable.getSelectedRow());
+                    idProductList.remove(basketTable.getSelectedRow());
+                    String s = "Корзина(" + basketList.size() + ")";
+                    basket.setText(s);
+
+                    double overallSellPrice = 0.0;
+
+                    for (int i = 0; i < basketProductTableModel.getRowCount(); i++) {
+                        overallSellPrice += Double.parseDouble(basketProductTableModel.getValueAt(i, 3));
+                    }
+                    sellPrice.setText("Загальна ціна: " + overallSellPrice);
+                    basketPanel.setVisible(false);
+                    basketPanel.setVisible(true);
+                }
+            }
+        });
+
+        sellPrice = new JLabel();
+        sellPrice.setBounds(420, 50, 200, 20);
+
+        sellProduct = new JButton("Продати");
+        sellProduct.setBounds(640, 50, 200, 20);
+        sellProduct.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dataExchange.transferString("sell");
+                dataExchange.transferInt(basketList.size());
+
+                for (int i = 0; i < basketList.size(); i++) {
+
+                    for (int k = 0; k < listProduct.size(); k++) {
+
+                        if (listProduct.get(k).getProductName().equals(basketList.get(i).getProductName())) {
+                            dataExchange.transferInt(listProduct.get(k).getProductId());
+                            break;
+                        }
+                    }
+                    dataExchange.transferProductEntity(basketList.get(i));
+                }
+
+                dataExchange.transferInt(basketProductTableModel.getRowCount());
+
+                for (int i = 0; i < basketProductTableModel.getRowCount(); i++) {
+                    StatisticsEntity entity = new StatisticsEntity();
+                    entity.setName(basketProductTableModel.getValueAt(i, 1));
+                    entity.setAmountSell(Double.parseDouble(basketProductTableModel.getValueAt(i, 2)));
+                    entity.setPrice(listProduct.get(idProductList.get(i)).getPrice());
+                    entity.setPriceSell(Double.parseDouble(basketProductTableModel.getValueAt(i, 3)));
+
+                    for (int j = 0; j < listGroup.size(); j++) {
+
+                        if (basketList.get(i).getGroupId() == listGroup.get(j).getGroupId()) {
+                            entity.setGroup(listGroup.get(j).getGroupName());
+                            break;
+                        }
+                    }
+                    for (int j = 0; j < listSubGroup.size(); j++) {
+
+                        if (basketList.get(i).getSubGroupId() == listSubGroup.get(j).getSubGroupId()) {
+                            entity.setSubGroup(listSubGroup.get(j).getSubGroupName());
+                            break;
+                        }
+                    }
+                    Locale local = new Locale("ru","RU");
+                    DateFormat df = DateFormat.getDateInstance(DateFormat.LONG , local);
+                    Date date = new Date();
+                    entity.setData(df.format(date));
+                    dataExchange.transferStatisticsEntity(entity);
+                }
+                idProductList = new ArrayList<Integer>();
+
+                for (int i = 0; i < productTableModel.getRowCount(); i++) {
+
+                    if (Double.parseDouble(productTableModel.getValueAt(i, 4)) == 0.0) {
+
+                        for (int k = 0; k < listProduct.size(); k++) {
+
+                            if (listProduct.get(k).getProductName().equals(productTableModel.getValueAt(i, 1))) {
+                                idProductList.add(listProduct.get(k).getProductId());
+                                break;
+                            }
+                        }
+                    }
+                }
+                dataExchange.transferInt(idProductList.size());
+
+                for (int i = 0; i < idProductList.size(); i++) {
+                    dataExchange.transferInt(idProductList.get(i));
+                }
+                basketList = new ArrayList<ProductEntity>();
+                idProductList = new ArrayList<Integer>();
+                basketProductTableModel.removeIsAll();
+                updateTable();
+                layout.show(clarificationPanel, "mainPanel");
+            }
+        });
+
+        basketProductTableModel = new BasketProductTableModel();
+        basketTable = new JTable(basketProductTableModel);
+        basketScroll = new JScrollPane(basketTable);
+        basketScroll.setBounds(100, 100, 800, 400);
+
+        basketPanel.add(back);
+        basketPanel.add(delProductInBasket);
+        basketPanel.add(sellPrice);
+        basketPanel.add(sellProduct);
+        basketPanel.add(basketScroll);
+
+        clarificationPanel.add(basketPanel, "basketPanel");
     }
 
     private void updateTable() {
@@ -176,7 +378,7 @@ public class Seller implements Runnable {
             entity.setPrice(listProduct.get(i).getPrice());
             listProductTable.add(entity);
         }
-        productTableModel.remove();
+        productTableModel.removeIsAll();
 
         for (int i = 0; i < listProductTable.size(); i++) {
             String[] table = {String.valueOf(listProductTable.get(i).getProductId()),
@@ -192,6 +394,7 @@ public class Seller implements Runnable {
     }
 
     private void checkTextFieldIsDouble(JTextField textField) {
+        String allowedCharacters = "0123456789";
         String getText = textField.getText();
         String setText = "";
         boolean isDote = true;
@@ -223,9 +426,7 @@ public class Seller implements Runnable {
         @Override
         public void actionPerformed(ActionEvent e) {
 
-            if (e.getSource() == sellProduct) {
-
-            } else if (e.getSource() == searchField || e.getSource() == searchButton) {
+            if (e.getSource() == searchField || e.getSource() == searchButton) {
 
                 if (!searchField.getText().equals("")) {
 
@@ -259,7 +460,7 @@ public class Seller implements Runnable {
                         }
                     }
                     listSearchTable = list;
-                    productTableModel.remove();
+                    productTableModel.removeIsAll();
 
                     for (int i = 0; i < listSearchTable.size(); i++) {
                         String[] table = {String.valueOf(listSearchTable.get(i).getProductId()),
@@ -278,7 +479,98 @@ public class Seller implements Runnable {
                 }
             } else if (e.getSource() == updateTable) {
                 searchField.setText(null);
+                basketList = new ArrayList<ProductEntity>();
+                String b = "Корзина(" + basketList.size() + ")";
+                basket.setText(b);
                 updateTable();
+            } else if (e.getSource() == basket) {
+                dataExchange.transferString("basket");
+                basketProductTableModel.removeIsAll();
+
+                for (int i = 0; i < basketList.size(); i++) {
+                    String row[] = new String[basketProductTableModel.getColumnCount()];
+                    row[0] = String.valueOf(i + 1);
+                    row[1] = basketList.get(i).getProductName();
+                    double amount = listProduct.get(idProductList.get(i)).getAmount() - basketList.get(i).getAmount();
+                    row[2] = String.valueOf(amount);
+                    double price = amount * basketList.get(i).getPrice();
+                    row[3] = String.valueOf(price);
+                    basketProductTableModel.addDate(row);
+                }
+                double overallSellPrice = 0.0;
+
+                for (int i = 0; i < basketProductTableModel.getRowCount(); i++) {
+                    overallSellPrice += Double.parseDouble(basketProductTableModel.getValueAt(i, 3));
+                }
+                sellPrice.setText("Загальна ціна: " + overallSellPrice);
+                basketTable.setVisible(false);
+                basketTable.setVisible(true);
+                layout.show(clarificationPanel, "basketPanel");
+            } else if (e.getSource() == addBasket || e.getSource() == amountProductSell) {
+                incorrectAmount.setText(null);
+
+                if (!amountProductSell.getText().equals("")) {
+
+                    if (table.getSelectedRow() != -1 && productTableModel.getRowCount() != 0) {
+
+                        if (Double.parseDouble(amountProductSell.getText()) != 0.0) {
+                            if (Double.parseDouble(amountProductSell.getText()) <= Double.parseDouble(productTableModel.getValueAt(table.getSelectedRow(), 4))) {
+
+                                for (int i = 0; i < listProduct.size(); i++) {
+
+                                    if (productTableModel.getValueAt(table.getSelectedRow(), 1).equals(listProduct.get(i).getProductName())) {
+                                        boolean isAdd = true;
+
+                                        for (int k = 0; k < basketList.size(); k++) {
+
+                                            if (basketList.get(k).getProductName().equals(listProduct.get(i).getProductName())) {
+                                                isAdd = false;
+                                                double am = basketList.get(k).getAmount();
+                                                basketList.get(k).setAmount(am - Double.parseDouble(amountProductSell.getText()));
+                                                productTableModel.setValueAt(String.valueOf(am - Double.parseDouble(amountProductSell.getText())), table.getSelectedRow(), 4);
+                                                table.setVisible(false);
+                                                table.setVisible(true);
+                                                break;
+                                            }
+                                        }
+
+                                        if (isAdd) {
+                                            ProductEntity entity = new ProductEntity();
+                                            entity.setProductName(listProduct.get(i).getProductName());
+                                            entity.setPrice(listProduct.get(i).getPrice());
+                                            entity.setAmount(listProduct.get(i).getAmount() - Double.parseDouble(amountProductSell.getText()));
+                                            productTableModel.setValueAt(String.valueOf(listProduct.get(i).getAmount() - Double.parseDouble(amountProductSell.getText())), table.getSelectedRow(), 4);
+                                            entity.setGroupId(listProduct.get(i).getGroupId());
+                                            entity.setSubGroupId(listProduct.get(i).getSubGroupId());
+                                            entity.setProductId(listProduct.get(i).getProductId());
+                                            basketList.add(entity);
+                                            String b = "Корзина(" + basketList.size() + ")";
+                                            basket.setText(b);
+                                            table.setVisible(false);
+                                            table.setVisible(true);
+                                            idProductList.add(i);
+                                        }
+
+                                        if (Double.parseDouble(productTableModel.getValueAt(table.getSelectedRow(), 4)) == 0.0) {
+                                            productTableModel.removeIsRows(table.getSelectedRow());
+                                        }
+                                        amountProductSell.setText(null);
+                                        break;
+                                    }
+                                }
+                            } else {
+                                incorrectAmount.setText("не вистачає товару");
+                            }
+                        } else {
+                            incorrectAmount.setText("ви ввели 0");
+                        }
+                    } else {
+                        incorrectAmount.setText("виберіть товар");
+                    }
+
+                } else {
+                    incorrectAmount.setText("поле повино бути заповнене");
+                }
             }
         }
     }

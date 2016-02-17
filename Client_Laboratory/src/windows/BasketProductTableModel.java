@@ -3,11 +3,15 @@ package windows;
 import javax.swing.table.AbstractTableModel;
 import java.util.ArrayList;
 
-public class ProductTableModel extends AbstractTableModel {
-    private int columnCount = 6;
+public class BasketProductTableModel extends AbstractTableModel {
+    private int columnCount = 4;
     private ArrayList<String[]> dataArrayList;
 
-    public ProductTableModel() {
+    public ArrayList<String[]> getDataArrayList() {
+        return dataArrayList;
+    }
+
+    public BasketProductTableModel() {
         dataArrayList = new ArrayList<String[]>();
         for (int i = 0; i < dataArrayList.size(); i++) {
             dataArrayList.add(new String[getColumnCount()]);
@@ -30,10 +34,8 @@ public class ProductTableModel extends AbstractTableModel {
         switch (column) {
             case 0: return "№";
             case 1: return "Ім’я товару";
-            case 2: return "Ім’я групи";
-            case 3: return "Ім’я підгрупи";
-            case 4: return "Кількість шт/кг";
-            case 5: return "Ціна за шт/кг";
+            case 2: return "Кількість";
+            case 3: return "Ціна";
         }
         return "";
     }

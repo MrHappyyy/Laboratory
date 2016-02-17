@@ -31,7 +31,6 @@ public class Seller extends Thread {
 
         while (stop) {
             client = dataExchange.acceptString();
-            System.out.println(client);
 
             switch (client) {
                 case "updateTable":
@@ -45,15 +44,55 @@ public class Seller extends Thread {
                         e.printStackTrace();
                     }
                     break;
-                case "sellProduct":
-                    sellProduct();
+                case  "basket":
+                    basket();
                     break;
             }
         }
     }
 
-    private void sellProduct() {
+    private void basket() {
+        String client;
 
+        while (true) {
+            client = dataExchange.acceptString();
+
+            switch (client) {
+                case "back":
+                    return;
+                case "sell":
+                    int size = dataExchange.acceptInt();
+                    System.out.println(size);
+
+                    for (int i = 0; i < size; i++) {
+                        int id = dataExchange.acceptInt();
+                        productDAO.update(id, dataExchange.acceptProductEntity());
+                    }
+                    size = dataExchange.acceptInt();
+                    System.out.println(size);
+
+                    for (int i = 0; i < size; i++) {
+                        statisticsDAO.add(dataExchange.acceptStatisticsEntity());
+                    }
+
+                    size = dataExchange.acceptInt();
+                    System.out.println(size);
+
+                    for (int i = 0; i < size; i++) {
+                        productDAO.delete(dataExchange.acceptInt());
+                    }
+                    return;
+                case "exit":
+                    try {
+                        stop = false;
+                        dataExchange.getSocket().close();
+                        return;
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    break;
+            }
+        }
     }
 
     private void updateTable() {

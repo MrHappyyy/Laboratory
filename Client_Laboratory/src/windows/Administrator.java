@@ -28,8 +28,6 @@ public class Administrator implements Runnable {
     private ArrayList<ProductTableEntity> listProductTable;
     private ArrayList<ProductTableEntity> listSearchTable = null;
 
-    private String allowedCharacters = "0123456789";
-
     /*mainPanel*/
     private JButton addGroup, delGroup, editGroup,
             addSubGroup, delSubGroup, editSubGroup,
@@ -194,7 +192,7 @@ public class Administrator implements Runnable {
             entity.setPrice(listProduct.get(i).getPrice());
             listProductTable.add(entity);
         }
-        productTableModel.remove();
+        productTableModel.removeIsAll();
 
         for (int i = 0; i < listProductTable.size(); i++) {
             String[] table = {String.valueOf(listProductTable.get(i).getProductId()),
@@ -2103,6 +2101,7 @@ public class Administrator implements Runnable {
     }
 
     private void checkTextFieldIsDouble(JTextField textField) {
+        String allowedCharacters = "0123456789";
         String getText = textField.getText();
         String setText = "";
         boolean isDote = true;
@@ -2290,7 +2289,7 @@ public class Administrator implements Runnable {
                         }
                     }
                     listSearchTable = list;
-                    productTableModel.remove();
+                    productTableModel.removeIsAll();
 
                     for (int i = 0; i < listSearchTable.size(); i++) {
                         String[] table = {String.valueOf(listSearchTable.get(i).getProductId()),
@@ -2344,7 +2343,7 @@ public class Administrator implements Runnable {
                         list.get(i).setProductId(i + 1);
                     }
                     listSearchTable = list;
-                    productTableModel.remove();
+                    productTableModel.removeIsAll();
 
                     for (int i = 0; i < listSearchTable.size(); i++) {
                         System.out.println(i);

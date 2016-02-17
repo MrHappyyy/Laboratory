@@ -2,19 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f375b9-52f1-440b-a922-6f15cbd9fdb3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/windows/BasketProductTableModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$1.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$10.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$11.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$12.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$13.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$14.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$15.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$16.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$17.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$18.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$19.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$2.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$20.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$21.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$22.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$23.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$24.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$25.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$25.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$26.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$26.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$27.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$27.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$28.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$28.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$29.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$29.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$3.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$30.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$30.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$31.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$31.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$32.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$32.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$33.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$33.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$34.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$34.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$35.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$35.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$36.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$36.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$37.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$37.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$38.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$38.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$39.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$39.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$4.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$40.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$40.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$41.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$41.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$42.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$42.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$43.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$43.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$5.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$6.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$7.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$8.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$9.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$Action.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator$Action.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Administrator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Buyer$Action.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Buyer$Action.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Buyer.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Buyer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Entrance.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Entrance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/ProductTableModel.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/ProductTableModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Seller$1.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Seller$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Seller$2.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Seller$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Seller$Action.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Seller$Action.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Seller.class" afterPath="$PROJECT_DIR$/out/production/Client_Laboratory/windows/Seller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Server_Laboratory/out/production/Server/server/Buyer.class" afterPath="$PROJECT_DIR$/../Server_Laboratory/out/production/Server/server/Buyer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Server_Laboratory/out/production/Server/server/Seller.class" afterPath="$PROJECT_DIR$/../Server_Laboratory/out/production/Server/server/Seller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Server_Laboratory/out/production/Server/server/Server_Thread.class" afterPath="$PROJECT_DIR$/../Server_Laboratory/out/production/Server/server/Server_Thread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/windows/Administrator.java" afterPath="$PROJECT_DIR$/src/windows/Administrator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/windows/Buyer.java" afterPath="$PROJECT_DIR$/src/windows/Buyer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/windows/ProductTableModel.java" afterPath="$PROJECT_DIR$/src/windows/ProductTableModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/windows/Seller.java" afterPath="$PROJECT_DIR$/src/windows/Seller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Server_Laboratory/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../Server_Laboratory/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Server_Laboratory/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Server_Laboratory/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Server_Laboratory/Product.db" afterPath="$PROJECT_DIR$/../Server_Laboratory/Product.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Server_Laboratory/src/server/Buyer.java" afterPath="$PROJECT_DIR$/../Server_Laboratory/src/server/Buyer.java" />
@@ -40,63 +87,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Administrator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/windows/Administrator.java">
+      <file leaf-file-name="Buyer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/windows/Buyer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2307" column="17" selection-start-line="2259" selection-start-column="0" selection-end-line="2307" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.6197479">
+              <caret line="243" column="29" selection-start-line="242" selection-start-column="15" selection-end-line="243" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Administrator#0;class#Administrator#0" expanded="false" />
-                <element signature="method#createGUI#0;class#Administrator#0" expanded="false" />
-                <element signature="method#initPanels#0;class#Administrator#0" expanded="false" />
-                <element signature="method#updateTable#0;class#Administrator#0" expanded="false" />
-                <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
-                <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
-                <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-                <element signature="class#15912:16370" expanded="false" />
-                <element signature="class#16682:17137" expanded="false" />
-                <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
-                <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-                <element signature="class#27386:27622" expanded="false" />
-                <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-                <element signature="class#31061:33904" expanded="false" />
-                <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
-                <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
-                <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
-                <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
-                <element signature="method#initAddSubGroupPanel#0;class#Administrator#0" expanded="false" />
-                <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
-                <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
-                <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-                <element signature="class#80090:80274" expanded="false" />
-                <element signature="class#80490:80846" expanded="false" />
-                <element signature="class#80901:84523" expanded="false" />
-                <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-                <element signature="class#84687:88308" expanded="false" />
-                <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Seller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/windows/Seller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#900#910#0" expanded="true" />
-                <element signature="method#Seller#0;class#Seller#0" expanded="false" />
-                <element signature="method#createGUI#0;class#Seller#0" expanded="false" />
-                <element signature="method#initPanels#0;class#Seller#0" expanded="false" />
-                <element signature="method#initClarificationPanel#0;class#Seller#0" expanded="false" />
-                <element signature="class#2744:3095" expanded="false" />
-                <element signature="method#insertUpdate#0;class#2744:3095" expanded="false" />
-                <element signature="method#changedUpdate#0;class#2744:3095" expanded="false" />
-                <element signature="method#updateTable#0;class#Seller#0" expanded="false" />
-                <element signature="method#checkTextFieldIsDouble#0;class#Seller#0" expanded="false" />
+                <element signature="method#initClarificationPanel#0;class#Buyer#0" expanded="false" />
+                <element signature="class#2358:2709" expanded="false" />
+                <element signature="method#updateTable#0;class#Buyer#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -134,18 +133,19 @@
         <option value="$PROJECT_DIR$/src/data_base/GroupEntity.java" />
         <option value="$PROJECT_DIR$/src/data_base/SubGroupEntity.java" />
         <option value="$PROJECT_DIR$/src/data_base/ProductTableEntity.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/data_base/ProductEntity.java" />
         <option value="$PROJECT_DIR$/src/client/StatisticsEntity.java" />
         <option value="$PROJECT_DIR$/src/client/DataExchange.java" />
         <option value="$PROJECT_DIR$/src/windows/StatisticsTableModel.java" />
-        <option value="$PROJECT_DIR$/src/windows/ProductTableModel.java" />
-        <option value="$PROJECT_DIR$/src/windows/Administrator.java" />
         <option value="$PROJECT_DIR$/src/windows/UpdataTable.java" />
         <option value="$PROJECT_DIR$/src/windows/UpdateTable.java" />
         <option value="$PROJECT_DIR$/src/windows/Entrance.java" />
         <option value="$PROJECT_DIR$/src/windows/ProductSellerTableModel.java" />
         <option value="$PROJECT_DIR$/src/windows/Buyer.java" />
+        <option value="$PROJECT_DIR$/src/windows/Administrator.java" />
+        <option value="$PROJECT_DIR$/src/windows/ProductTableModel.java" />
+        <option value="$PROJECT_DIR$/src/windows/BasketProductTableModel.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/windows/Seller.java" />
       </list>
     </option>
@@ -158,9 +158,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="25" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+    <option name="x" value="-1" />
+    <option name="y" value="24" />
+    <option name="width" value="1368" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -187,9 +188,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -657,7 +658,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="741" extended-state="1" />
+    <frame x="-1" y="24" width="1368" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -667,11 +668,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19032258" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1894061" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15174507" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15151516" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -682,6 +682,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -697,7 +698,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -706,40 +707,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/windows/Administrator.java">
+    <entry file="file://$PROJECT_DIR$/src/windows/ProductTableModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Administrator#0;class#Administrator#0" expanded="false" />
-            <element signature="method#createGUI#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initPanels#0;class#Administrator#0" expanded="false" />
-            <element signature="method#updateTable#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#15912:16370" expanded="false" />
-            <element signature="class#16682:17137" expanded="false" />
-            <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#27386:27622" expanded="false" />
-            <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-            <element signature="class#31061:33904" expanded="false" />
-            <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
-            <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initAddSubGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#80090:80274" expanded="false" />
-            <element signature="class#80490:80846" expanded="false" />
-            <element signature="class#80901:84523" expanded="false" />
-            <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-            <element signature="class#84687:88308" expanded="false" />
-            <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
+            <element signature="e#1702#1703#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -757,14 +733,14 @@
             <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#15912:16370" expanded="false" />
-            <element signature="class#16682:17137" expanded="false" />
+            <element signature="class#15863:16321" expanded="false" />
+            <element signature="class#16633:17088" expanded="false" />
             <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#27386:27622" expanded="false" />
-            <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-            <element signature="class#31061:33904" expanded="false" />
-            <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
+            <element signature="class#27337:27573" expanded="false" />
+            <element signature="method#actionPerformed#0;class#27982:30611" expanded="false" />
+            <element signature="class#31012:33855" expanded="false" />
+            <element signature="method#actionPerformed#0;class#34622:36938" expanded="false" />
             <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
@@ -772,12 +748,13 @@
             <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#80090:80274" expanded="false" />
-            <element signature="class#80490:80846" expanded="false" />
-            <element signature="class#80901:84523" expanded="false" />
-            <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-            <element signature="class#84687:88308" expanded="false" />
+            <element signature="class#80041:80225" expanded="false" />
+            <element signature="class#80441:80797" expanded="false" />
+            <element signature="class#80852:84474" expanded="false" />
+            <element signature="method#actionPerformed#0;class#80852:84474" expanded="false" />
+            <element signature="class#84638:88259" expanded="false" />
             <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
+            <element signature="class#Action#0;class#Administrator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -795,14 +772,14 @@
             <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#15912:16370" expanded="false" />
-            <element signature="class#16682:17137" expanded="false" />
+            <element signature="class#15863:16321" expanded="false" />
+            <element signature="class#16633:17088" expanded="false" />
             <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#27386:27622" expanded="false" />
-            <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-            <element signature="class#31061:33904" expanded="false" />
-            <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
+            <element signature="class#27337:27573" expanded="false" />
+            <element signature="method#actionPerformed#0;class#27982:30611" expanded="false" />
+            <element signature="class#31012:33855" expanded="false" />
+            <element signature="method#actionPerformed#0;class#34622:36938" expanded="false" />
             <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
@@ -810,12 +787,13 @@
             <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#80090:80274" expanded="false" />
-            <element signature="class#80490:80846" expanded="false" />
-            <element signature="class#80901:84523" expanded="false" />
-            <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-            <element signature="class#84687:88308" expanded="false" />
+            <element signature="class#80041:80225" expanded="false" />
+            <element signature="class#80441:80797" expanded="false" />
+            <element signature="class#80852:84474" expanded="false" />
+            <element signature="method#actionPerformed#0;class#80852:84474" expanded="false" />
+            <element signature="class#84638:88259" expanded="false" />
             <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
+            <element signature="class#Action#0;class#Administrator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -833,14 +811,14 @@
             <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#15912:16370" expanded="false" />
-            <element signature="class#16682:17137" expanded="false" />
+            <element signature="class#15863:16321" expanded="false" />
+            <element signature="class#16633:17088" expanded="false" />
             <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#27386:27622" expanded="false" />
-            <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-            <element signature="class#31061:33904" expanded="false" />
-            <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
+            <element signature="class#27337:27573" expanded="false" />
+            <element signature="method#actionPerformed#0;class#27982:30611" expanded="false" />
+            <element signature="class#31012:33855" expanded="false" />
+            <element signature="method#actionPerformed#0;class#34622:36938" expanded="false" />
             <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
@@ -848,12 +826,13 @@
             <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#80090:80274" expanded="false" />
-            <element signature="class#80490:80846" expanded="false" />
-            <element signature="class#80901:84523" expanded="false" />
-            <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-            <element signature="class#84687:88308" expanded="false" />
+            <element signature="class#80041:80225" expanded="false" />
+            <element signature="class#80441:80797" expanded="false" />
+            <element signature="class#80852:84474" expanded="false" />
+            <element signature="method#actionPerformed#0;class#80852:84474" expanded="false" />
+            <element signature="class#84638:88259" expanded="false" />
             <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
+            <element signature="class#Action#0;class#Administrator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -871,14 +850,14 @@
             <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#15912:16370" expanded="false" />
-            <element signature="class#16682:17137" expanded="false" />
+            <element signature="class#15863:16321" expanded="false" />
+            <element signature="class#16633:17088" expanded="false" />
             <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#27386:27622" expanded="false" />
-            <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-            <element signature="class#31061:33904" expanded="false" />
-            <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
+            <element signature="class#27337:27573" expanded="false" />
+            <element signature="method#actionPerformed#0;class#27982:30611" expanded="false" />
+            <element signature="class#31012:33855" expanded="false" />
+            <element signature="method#actionPerformed#0;class#34622:36938" expanded="false" />
             <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
@@ -886,12 +865,13 @@
             <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#80090:80274" expanded="false" />
-            <element signature="class#80490:80846" expanded="false" />
-            <element signature="class#80901:84523" expanded="false" />
-            <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-            <element signature="class#84687:88308" expanded="false" />
+            <element signature="class#80041:80225" expanded="false" />
+            <element signature="class#80441:80797" expanded="false" />
+            <element signature="class#80852:84474" expanded="false" />
+            <element signature="method#actionPerformed#0;class#80852:84474" expanded="false" />
+            <element signature="class#84638:88259" expanded="false" />
             <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
+            <element signature="class#Action#0;class#Administrator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -909,14 +889,14 @@
             <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#15912:16370" expanded="false" />
-            <element signature="class#16682:17137" expanded="false" />
+            <element signature="class#15863:16321" expanded="false" />
+            <element signature="class#16633:17088" expanded="false" />
             <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#27386:27622" expanded="false" />
-            <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-            <element signature="class#31061:33904" expanded="false" />
-            <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
+            <element signature="class#27337:27573" expanded="false" />
+            <element signature="method#actionPerformed#0;class#27982:30611" expanded="false" />
+            <element signature="class#31012:33855" expanded="false" />
+            <element signature="method#actionPerformed#0;class#34622:36938" expanded="false" />
             <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
@@ -924,12 +904,13 @@
             <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#80090:80274" expanded="false" />
-            <element signature="class#80490:80846" expanded="false" />
-            <element signature="class#80901:84523" expanded="false" />
-            <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-            <element signature="class#84687:88308" expanded="false" />
+            <element signature="class#80041:80225" expanded="false" />
+            <element signature="class#80441:80797" expanded="false" />
+            <element signature="class#80852:84474" expanded="false" />
+            <element signature="method#actionPerformed#0;class#80852:84474" expanded="false" />
+            <element signature="class#84638:88259" expanded="false" />
             <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
+            <element signature="class#Action#0;class#Administrator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -947,14 +928,14 @@
             <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#15912:16370" expanded="false" />
-            <element signature="class#16682:17137" expanded="false" />
+            <element signature="class#15863:16321" expanded="false" />
+            <element signature="class#16633:17088" expanded="false" />
             <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#27386:27622" expanded="false" />
-            <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-            <element signature="class#31061:33904" expanded="false" />
-            <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
+            <element signature="class#27337:27573" expanded="false" />
+            <element signature="method#actionPerformed#0;class#27982:30611" expanded="false" />
+            <element signature="class#31012:33855" expanded="false" />
+            <element signature="method#actionPerformed#0;class#34622:36938" expanded="false" />
             <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
@@ -962,12 +943,13 @@
             <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#80090:80274" expanded="false" />
-            <element signature="class#80490:80846" expanded="false" />
-            <element signature="class#80901:84523" expanded="false" />
-            <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-            <element signature="class#84687:88308" expanded="false" />
+            <element signature="class#80041:80225" expanded="false" />
+            <element signature="class#80441:80797" expanded="false" />
+            <element signature="class#80852:84474" expanded="false" />
+            <element signature="method#actionPerformed#0;class#80852:84474" expanded="false" />
+            <element signature="class#84638:88259" expanded="false" />
             <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
+            <element signature="class#Action#0;class#Administrator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -985,14 +967,14 @@
             <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#15912:16370" expanded="false" />
-            <element signature="class#16682:17137" expanded="false" />
+            <element signature="class#15863:16321" expanded="false" />
+            <element signature="class#16633:17088" expanded="false" />
             <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#27386:27622" expanded="false" />
-            <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-            <element signature="class#31061:33904" expanded="false" />
-            <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
+            <element signature="class#27337:27573" expanded="false" />
+            <element signature="method#actionPerformed#0;class#27982:30611" expanded="false" />
+            <element signature="class#31012:33855" expanded="false" />
+            <element signature="method#actionPerformed#0;class#34622:36938" expanded="false" />
             <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
@@ -1000,12 +982,13 @@
             <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#80090:80274" expanded="false" />
-            <element signature="class#80490:80846" expanded="false" />
-            <element signature="class#80901:84523" expanded="false" />
-            <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-            <element signature="class#84687:88308" expanded="false" />
+            <element signature="class#80041:80225" expanded="false" />
+            <element signature="class#80441:80797" expanded="false" />
+            <element signature="class#80852:84474" expanded="false" />
+            <element signature="method#actionPerformed#0;class#80852:84474" expanded="false" />
+            <element signature="class#84638:88259" expanded="false" />
             <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
+            <element signature="class#Action#0;class#Administrator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1023,14 +1006,14 @@
             <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#15912:16370" expanded="false" />
-            <element signature="class#16682:17137" expanded="false" />
+            <element signature="class#15863:16321" expanded="false" />
+            <element signature="class#16633:17088" expanded="false" />
             <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#27386:27622" expanded="false" />
-            <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-            <element signature="class#31061:33904" expanded="false" />
-            <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
+            <element signature="class#27337:27573" expanded="false" />
+            <element signature="method#actionPerformed#0;class#27982:30611" expanded="false" />
+            <element signature="class#31012:33855" expanded="false" />
+            <element signature="method#actionPerformed#0;class#34622:36938" expanded="false" />
             <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
@@ -1038,50 +1021,13 @@
             <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#80090:80274" expanded="false" />
-            <element signature="class#80490:80846" expanded="false" />
-            <element signature="class#80901:84523" expanded="false" />
-            <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-            <element signature="class#84687:88308" expanded="false" />
+            <element signature="class#80041:80225" expanded="false" />
+            <element signature="class#80441:80797" expanded="false" />
+            <element signature="class#80852:84474" expanded="false" />
+            <element signature="method#actionPerformed#0;class#80852:84474" expanded="false" />
+            <element signature="class#84638:88259" expanded="false" />
             <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/windows/Administrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Administrator#0;class#Administrator#0" expanded="false" />
-            <element signature="method#createGUI#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initPanels#0;class#Administrator#0" expanded="false" />
-            <element signature="method#updateTable#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#15912:16370" expanded="false" />
-            <element signature="class#16682:17137" expanded="false" />
-            <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#27386:27622" expanded="false" />
-            <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-            <element signature="class#31061:33904" expanded="false" />
-            <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
-            <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initAddSubGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#80090:80274" expanded="false" />
-            <element signature="class#80490:80846" expanded="false" />
-            <element signature="class#80901:84523" expanded="false" />
-            <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-            <element signature="class#84687:88308" expanded="false" />
-            <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
+            <element signature="class#Action#0;class#Administrator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1099,14 +1045,14 @@
             <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#15912:16370" expanded="false" />
-            <element signature="class#16682:17137" expanded="false" />
+            <element signature="class#15863:16321" expanded="false" />
+            <element signature="class#16633:17088" expanded="false" />
             <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#27386:27622" expanded="false" />
-            <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-            <element signature="class#31061:33904" expanded="false" />
-            <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
+            <element signature="class#27337:27573" expanded="false" />
+            <element signature="method#actionPerformed#0;class#27982:30611" expanded="false" />
+            <element signature="class#31012:33855" expanded="false" />
+            <element signature="method#actionPerformed#0;class#34622:36938" expanded="false" />
             <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
@@ -1114,12 +1060,13 @@
             <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
             <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#80090:80274" expanded="false" />
-            <element signature="class#80490:80846" expanded="false" />
-            <element signature="class#80901:84523" expanded="false" />
-            <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-            <element signature="class#84687:88308" expanded="false" />
+            <element signature="class#80041:80225" expanded="false" />
+            <element signature="class#80441:80797" expanded="false" />
+            <element signature="class#80852:84474" expanded="false" />
+            <element signature="method#actionPerformed#0;class#80852:84474" expanded="false" />
+            <element signature="class#84638:88259" expanded="false" />
             <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
+            <element signature="class#Action#0;class#Administrator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1257,7 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,14 +1285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/windows/ProductTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/windows/StatisticsTableModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1522199">
@@ -1360,44 +1298,6 @@
         <state vertical-scroll-proportion="0.3319239">
           <caret line="456" column="19" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/windows/Administrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2307" column="17" selection-start-line="2259" selection-start-column="0" selection-end-line="2307" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Administrator#0;class#Administrator#0" expanded="false" />
-            <element signature="method#createGUI#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initPanels#0;class#Administrator#0" expanded="false" />
-            <element signature="method#updateTable#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#15912:16370" expanded="false" />
-            <element signature="class#16682:17137" expanded="false" />
-            <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#27386:27622" expanded="false" />
-            <element signature="method#actionPerformed#0;class#28031:30660" expanded="false" />
-            <element signature="class#31061:33904" expanded="false" />
-            <element signature="method#actionPerformed#0;class#34671:36987" expanded="false" />
-            <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initAddSubGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
-            <element signature="class#80090:80274" expanded="false" />
-            <element signature="class#80490:80846" expanded="false" />
-            <element signature="class#80901:84523" expanded="false" />
-            <element signature="method#actionPerformed#0;class#80901:84523" expanded="false" />
-            <element signature="class#84687:88308" expanded="false" />
-            <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1417,35 +1317,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/windows/Buyer.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61945033">
-          <caret line="243" column="29" selection-start-line="242" selection-start-column="15" selection-end-line="243" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.3319239">
+          <caret line="733" column="16" selection-start-line="733" selection-start-column="16" selection-end-line="733" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/windows/BasketProductTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initClarificationPanel#0;class#Buyer#0" expanded="false" />
-            <element signature="class#2358:2709" expanded="false" />
-            <element signature="method#updateTable#0;class#Buyer#0" expanded="false" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+            <element signature="e#1844#1845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/windows/ProductTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="e#1702#1703#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/windows/Seller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.37815127">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#900#910#0" expanded="true" />
             <element signature="method#Seller#0;class#Seller#0" expanded="false" />
             <element signature="method#createGUI#0;class#Seller#0" expanded="false" />
             <element signature="method#initPanels#0;class#Seller#0" expanded="false" />
-            <element signature="method#initClarificationPanel#0;class#Seller#0" expanded="false" />
-            <element signature="class#2744:3095" expanded="false" />
-            <element signature="method#insertUpdate#0;class#2744:3095" expanded="false" />
-            <element signature="method#changedUpdate#0;class#2744:3095" expanded="false" />
+            <element signature="method#initMainPanel#0;class#Seller#0" expanded="false" />
+            <element signature="class#2678:3029" expanded="false" />
+            <element signature="class#4034:4492" expanded="false" />
+            <element signature="class#5543:5860" expanded="false" />
             <element signature="method#updateTable#0;class#Seller#0" expanded="false" />
             <element signature="method#checkTextFieldIsDouble#0;class#Seller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/windows/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037815128">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Administrator#0;class#Administrator#0" expanded="false" />
+            <element signature="method#createGUI#0;class#Administrator#0" expanded="false" />
+            <element signature="method#initPanels#0;class#Administrator#0" expanded="false" />
+            <element signature="method#updateTable#0;class#Administrator#0" expanded="false" />
+            <element signature="method#initClarificationPanel#0;class#Administrator#0" expanded="false" />
+            <element signature="method#initMainPanel#0;class#Administrator#0" expanded="false" />
+            <element signature="method#initAddProductPanel#0;class#Administrator#0" expanded="false" />
+            <element signature="class#15863:16321" expanded="false" />
+            <element signature="class#16633:17088" expanded="false" />
+            <element signature="method#initDelProductPanel#0;class#Administrator#0" expanded="false" />
+            <element signature="method#initEditProductPanel#0;class#Administrator#0" expanded="false" />
+            <element signature="class#27337:27573" expanded="false" />
+            <element signature="method#actionPerformed#0;class#27982:30611" expanded="false" />
+            <element signature="class#31012:33855" expanded="false" />
+            <element signature="method#actionPerformed#0;class#34622:36938" expanded="false" />
+            <element signature="method#initAddGroupPanel#0;class#Administrator#0" expanded="false" />
+            <element signature="method#initDelGroupPanel#0;class#Administrator#0" expanded="false" />
+            <element signature="method#initEditGroupPanel#0;class#Administrator#0" expanded="false" />
+            <element signature="method#initAddSubGroupPanel#0;class#Administrator#0" expanded="false" />
+            <element signature="method#initDelSubGroupPanel#0;class#Administrator#0" expanded="false" />
+            <element signature="method#initEditSubGroupPanel#0;class#Administrator#0" expanded="false" />
+            <element signature="method#initStatisticsPanel#0;class#Administrator#0" expanded="false" />
+            <element signature="class#80041:80225" expanded="false" />
+            <element signature="class#80441:80797" expanded="false" />
+            <element signature="class#80852:84474" expanded="false" />
+            <element signature="method#actionPerformed#0;class#80852:84474" expanded="false" />
+            <element signature="class#84638:88259" expanded="false" />
+            <element signature="method#checkTextFieldIsDouble#0;class#Administrator#0" expanded="false" />
+            <element signature="class#Action#0;class#Administrator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/windows/Buyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6197479">
+          <caret line="243" column="29" selection-start-line="242" selection-start-column="15" selection-end-line="243" selection-end-column="29" />
+          <folding>
+            <element signature="method#initClarificationPanel#0;class#Buyer#0" expanded="false" />
+            <element signature="class#2358:2709" expanded="false" />
+            <element signature="method#updateTable#0;class#Buyer#0" expanded="false" />
           </folding>
         </state>
       </provider>

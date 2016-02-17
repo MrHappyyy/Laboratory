@@ -3,6 +3,7 @@ package server;
 import dataBase.*;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Buyer extends Thread {
