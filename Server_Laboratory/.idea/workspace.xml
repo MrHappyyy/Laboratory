@@ -2,70 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c0a824f-77b0-4894-a5b4-3833e6329686" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/BasketProductTableModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$1.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$10.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$11.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$12.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$13.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$14.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$15.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$16.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$17.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$18.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$19.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$2.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$20.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$21.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$22.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$23.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$24.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$24.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$25.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$25.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$26.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$26.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$27.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$27.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$28.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$28.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$29.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$29.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$3.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$30.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$30.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$31.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$31.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$32.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$32.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$33.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$33.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$34.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$34.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$35.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$35.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$36.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$36.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$37.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$37.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$38.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$38.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$39.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$39.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$4.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$40.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$40.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$41.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$41.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$42.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$42.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$43.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$43.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$5.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$6.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$7.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$8.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$9.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$Action.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator$Action.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Administrator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/window/Window.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/images/SearchIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/images/add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/images/edit_8121.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/images/edit_remove_4116.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/images/SearchIcon.png" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/search.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/images/add.png" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/add.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/images/edit_8121.png" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/edit_8121.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/images/edit_remove_4116.png" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/edit_remove_4116.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Buyer$Action.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Buyer$Action.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Buyer.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Buyer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/ProductTableModel.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/ProductTableModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Seller$1.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Seller$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Seller$2.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Seller$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Seller$6.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Seller$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Seller$Action.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Seller$Action.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Seller.class" afterPath="$PROJECT_DIR$/../Client_Laboratory/out/production/Client_Laboratory/windows/Seller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Server/server/Buyer.class" afterPath="$PROJECT_DIR$/out/production/Server/server/Buyer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Server/server/Seller.class" afterPath="$PROJECT_DIR$/out/production/Server/server/Seller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Client_Laboratory/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Administrator.java" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Administrator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/client/DataExchange.java" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/client/DataExchange.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Buyer.java" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Buyer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/windows/ProductTableModel.java" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/ProductTableModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Entrance.java" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Entrance.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Seller.java" afterPath="$PROJECT_DIR$/../Client_Laboratory/src/windows/Seller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Product.db" afterPath="$PROJECT_DIR$/Product.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Buyer.java" afterPath="$PROJECT_DIR$/src/server/Buyer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/DataExchange.java" afterPath="$PROJECT_DIR$/src/server/DataExchange.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Seller.java" afterPath="$PROJECT_DIR$/src/server/Seller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Server.java" afterPath="$PROJECT_DIR$/src/server/Server.java" />
     </list>
     <ignored path="Server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,15 +49,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Seller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/server/Seller.java">
+      <file leaf-file-name="Window.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/window/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9224319">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.43396226">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#updateTable#0;class#Seller#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Buyer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/Buyer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataExchange.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/DataExchange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="219" column="9" selection-start-line="219" selection-start-column="9" selection-end-line="219" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,7 +115,6 @@
         <option value="$PROJECT_DIR$/src/TEST.java" />
         <option value="$PROJECT_DIR$/src/TS.java" />
         <option value="$PROJECT_DIR$/src/TestPanel.java" />
-        <option value="$PROJECT_DIR$/src/window/Window.java" />
         <option value="$PROJECT_DIR$/src/dataBase/groupEntity.java" />
         <option value="$PROJECT_DIR$/src/dataBase/subGroupEntity.java" />
         <option value="$PROJECT_DIR$/src/db/DAO.java" />
@@ -144,17 +134,18 @@
         <option value="$PROJECT_DIR$/src/dataBase/User.java" />
         <option value="$PROJECT_DIR$/src/dataBase/GroupEntity.java" />
         <option value="$PROJECT_DIR$/src/dataBase/GroupDAO.java" />
-        <option value="$PROJECT_DIR$/src/server/Server.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/dataBase/DataBase.java" />
         <option value="$PROJECT_DIR$/src/dataBase/StatisticsEntity.java" />
         <option value="$PROJECT_DIR$/src/dataBase/StatisticsDAO.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/server/DataExchange.java" />
         <option value="$PROJECT_DIR$/src/server/Administrator.java" />
         <option value="$PROJECT_DIR$/src/server/Server_Thread.java" />
         <option value="$PROJECT_DIR$/src/server/Buyer.java" />
         <option value="$PROJECT_DIR$/src/server/Seller.java" />
+        <option value="$PROJECT_DIR$/src/server/Server.java" />
+        <option value="$PROJECT_DIR$/src/server/DataExchange.java" />
+        <option value="$PROJECT_DIR$/src/window/Window.java" />
       </list>
     </option>
   </component>
@@ -169,9 +160,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
     <option name="y" value="24" />
-    <option name="width" value="1368" />
+    <option name="width" value="1366" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -199,6 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -215,6 +206,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Server_Laboratory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server_Laboratory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="window" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,7 +273,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dataBase" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,12 +282,11 @@
       <pane id="Scratches">
         <subPane />
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -293,21 +301,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Server" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="TS" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -358,6 +351,26 @@
     <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Server" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Window" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="window.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="window.Window" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -616,18 +629,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TS" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestPanel" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DataBase" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestPanel" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DataBase" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Window" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DataBase" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestPanel" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TS" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Window" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DataBase" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestPanel" />
       </list>
     </recent_temporary>
   </component>
@@ -645,7 +658,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1368" height="744" extended-state="7" />
+    <frame x="0" y="24" width="1366" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -655,10 +668,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1894061" sideWeight="0.5030303" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18780096" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18780096" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16287878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16236722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -694,20 +707,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/server/Administrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/DataExchange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="201" column="49" selection-start-line="201" selection-start-column="49" selection-end-line="201" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -983,13 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49159664">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dataBase/StatisticsDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6722689">
@@ -1030,25 +1022,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/DataExchange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Server_Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Buyer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73417723">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1061,11 +1039,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Seller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9224319">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.030303031">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#basket#0;class#Seller#0" expanded="false" />
             <element signature="method#updateTable#0;class#Seller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1785" column="0" selection-start-line="1785" selection-start-column="0" selection-end-line="1785" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/DataExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="219" column="9" selection-start-line="219" selection-start-column="9" selection-end-line="219" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Buyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/window/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43396226">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1076,10 +1097,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

@@ -208,6 +208,14 @@ public class DataExchange {
         }
     }
 
+    public void flush() {
+        try {
+            ou.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     /*public void transferObject(Object o) {
         try {
             objOu.writeObject(o);

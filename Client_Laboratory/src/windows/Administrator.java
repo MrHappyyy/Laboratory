@@ -106,6 +106,13 @@ public class Administrator implements Runnable {
     private JTextField statisticsSearchField;
     private JButton statisticsSearchButton;
 
+    private ImageIcon iconAdd;
+    private ImageIcon iconDel;
+    private ImageIcon iconEdit;
+    private ImageIcon iconSearch;
+    private ImageIcon iconRefresh;
+
+
     public Administrator(DataExchange dataExchange) {
         this.dataExchange = dataExchange;
         this.run();
@@ -216,17 +223,23 @@ public class Administrator implements Runnable {
     private void initMainPanel() {
         mainPanel = new JPanel(null);
 
+        iconAdd = new ImageIcon("/home/mrhappyyy/Programing/Java/Project/Laboratory/Client_Laboratory/src/windows/add.png");
+        iconDel = new ImageIcon("/home/mrhappyyy/Programing/Java/Project/Laboratory/Client_Laboratory/src/windows/del.png");
+        iconEdit = new ImageIcon("/home/mrhappyyy/Programing/Java/Project/Laboratory/Client_Laboratory/src/windows/edit.png");
+        iconSearch = new ImageIcon("/home/mrhappyyy/Programing/Java/Project/Laboratory/Client_Laboratory/src/windows/search.png");
+        iconRefresh = new ImageIcon("/home/mrhappyyy/Programing/Java/Project/Laboratory/Client_Laboratory/src/windows/refresh.png");
+
         productLabel = new JLabel("Товари");
         productLabel.setHorizontalAlignment(JLabel.CENTER);
         productLabel.setBounds(50, 50, 190, 20);
 
-        addProduct = new JButton();
+        addProduct = new JButton(iconAdd);
         addProduct.setBounds(50, 90, 50, 50);
         addProduct.addActionListener(new Action());
-        delProduct = new JButton();
+        delProduct = new JButton(iconDel);
         delProduct.setBounds(120, 90, 50, 50);
         delProduct.addActionListener(new Action());
-        editProduct = new JButton();
+        editProduct = new JButton(iconEdit);
         editProduct.setBounds(190, 90, 50, 50);
         editProduct.addActionListener(new Action());
 
@@ -234,13 +247,13 @@ public class Administrator implements Runnable {
         groupLabel.setHorizontalAlignment(JLabel.CENTER);
         groupLabel.setBounds(50, 170, 190, 20);
 
-        addGroup = new JButton();
+        addGroup = new JButton(iconAdd);
         addGroup.setBounds(50, 210, 50, 50);
         addGroup.addActionListener(new Action());
-        delGroup = new JButton();
+        delGroup = new JButton(iconDel);
         delGroup.setBounds(120, 210, 50, 50);
         delGroup.addActionListener(new Action());
-        editGroup = new JButton();
+        editGroup = new JButton(iconEdit);
         editGroup.setBounds(190, 210, 50, 50);
         editGroup.addActionListener(new Action());
 
@@ -248,13 +261,13 @@ public class Administrator implements Runnable {
         subGroupLabel.setHorizontalAlignment(JLabel.CENTER);
         subGroupLabel.setBounds(50, 290, 190, 20);
 
-        addSubGroup = new JButton();
+        addSubGroup = new JButton(iconAdd);
         addSubGroup.setBounds(50, 330, 50, 50);
         addSubGroup.addActionListener(new Action());
-        delSubGroup = new JButton();
+        delSubGroup = new JButton(iconDel);
         delSubGroup.setBounds(120, 330, 50, 50);
         delSubGroup.addActionListener(new Action());
-        editSubGroup = new JButton();
+        editSubGroup = new JButton(iconEdit);
         editSubGroup.setBounds(190, 330, 50, 50);
         editSubGroup.addActionListener(new Action());
 
@@ -282,11 +295,11 @@ public class Administrator implements Runnable {
             }
         });
 
-        searchButton = new JButton();
+        searchButton = new JButton(iconSearch);
         searchButton.setBounds(920, 37, 50, 50);
         searchButton.addActionListener(new Action());
 
-        updateTable = new JButton();
+        updateTable = new JButton(iconRefresh);
         updateTable.setBounds(920, 117, 50, 50);
         updateTable.addActionListener(new Action());
 

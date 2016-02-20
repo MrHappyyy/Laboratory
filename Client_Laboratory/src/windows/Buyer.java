@@ -91,11 +91,14 @@ public class Buyer implements Runnable {
         });
         searchField.addActionListener(new Action());
 
-        searchButton = new JButton();
+
+        searchButton = new JButton(new ImageIcon("/home/mrhappyyy/Programing/Java/Project/Laboratory/Client_Laboratory/src/windows/search.png"));
+        searchButton.setBorderPainted(false);
         searchButton.setBounds(900, 35, 50, 50);
         searchButton.addActionListener(new Action());
 
-        updateTable = new JButton();
+        updateTable = new JButton(new ImageIcon("/home/mrhappyyy/Programing/Java/Project/Laboratory/Client_Laboratory/src/windows/refresh.png"));
+        updateTable.setBorderPainted(false);
         updateTable.setBounds(900, 100, 50, 50);
         updateTable.addActionListener(new Action());
 

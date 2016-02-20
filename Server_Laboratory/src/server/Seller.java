@@ -62,21 +62,18 @@ public class Seller extends Thread {
                     return;
                 case "sell":
                     int size = dataExchange.acceptInt();
-                    System.out.println(size);
 
                     for (int i = 0; i < size; i++) {
                         int id = dataExchange.acceptInt();
                         productDAO.update(id, dataExchange.acceptProductEntity());
                     }
                     size = dataExchange.acceptInt();
-                    System.out.println(size);
 
                     for (int i = 0; i < size; i++) {
                         statisticsDAO.add(dataExchange.acceptStatisticsEntity());
                     }
 
                     size = dataExchange.acceptInt();
-                    System.out.println(size);
 
                     for (int i = 0; i < size; i++) {
                         productDAO.delete(dataExchange.acceptInt());

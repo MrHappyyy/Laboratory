@@ -116,7 +116,7 @@ public class Seller implements Runnable {
         basket.setBounds(25, 50, 150, 20);
         basket.addActionListener(new Action());
 
-        enterAmountProduct = new JLabel("Введіть кількість товару");
+        enterAmountProduct = new JLabel("Введіть кількість:");
         enterAmountProduct.setBounds(25, 90, 150, 20);
         enterAmountProduct.setHorizontalAlignment(SwingConstants.LEFT);
 
@@ -140,7 +140,7 @@ public class Seller implements Runnable {
         });
         amountProductSell.addActionListener(new Action());
 
-        addBasket = new JButton("додати в корзин");
+        addBasket = new JButton("до корзини");
         addBasket.setBounds(25, 170, 150, 20);
         addBasket.addActionListener(new Action());
 
@@ -311,6 +311,8 @@ public class Seller implements Runnable {
                 idProductList = new ArrayList<Integer>();
                 basketProductTableModel.removeIsAll();
                 updateTable();
+                String s = "Корзина(" + basketList.size() + ")";
+                basket.setText(s);
                 layout.show(clarificationPanel, "mainPanel");
             }
         });

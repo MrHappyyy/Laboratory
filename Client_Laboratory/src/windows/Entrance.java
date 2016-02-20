@@ -34,7 +34,9 @@ public class Entrance implements Runnable {
             @Override
             public void windowClosing(WindowEvent e) {
                 super.windowClosing(e);
+                System.out.println("exit");
                 dataExchange.transferString("Exit");
+                dataExchange.flush();
             }
         });
         initialization();
